@@ -1,0 +1,13 @@
+prefix + 파일명 + suffix
+
+-> /WEB-INF/views/home.jsp
+
+
+
+
+
+
+
+
+uri: 식별자
+url: 위치 
