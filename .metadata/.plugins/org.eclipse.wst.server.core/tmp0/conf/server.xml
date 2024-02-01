@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\sts3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\sts3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-first" path="/first" reloadable="true" source="org.eclipse.jst.jee.server:spring-first"/></Host>
+      <Context docBase="C:\sts3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\sts3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-first" path="/first" reloadable="true" source="org.eclipse.jst.jee.server:spring-first"/><Context docBase="C:\sts3\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\self_Introduction" path="/introduction" reloadable="true" source="org.eclipse.jst.jee.server:self_Introduction"/></Host>
     </Engine>
   </Service>
 </Server>

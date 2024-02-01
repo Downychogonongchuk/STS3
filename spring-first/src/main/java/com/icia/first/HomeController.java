@@ -26,7 +26,9 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET) 
+	// context root 기본 url 확인> 프로젝트>properties>
+	
 	//method 생략가능(기본Get) , method 생략시 value도 생략
 	//post일 경우 value,method 생략 불가
 	public String home(Locale locale, Model model) {
